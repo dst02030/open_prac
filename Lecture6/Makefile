@@ -1,4 +1,4 @@
-all: hello-cpp-world hello-c-world
+all: Animal_farm1 Animal_farm2
 
 %: %.cc
 	g++ -std=c++11 $< -o $@
