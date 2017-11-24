@@ -7,7 +7,7 @@ void Dog_cry(){
 
 void Cat_cry(){
     std::cout<<"Ya-ong! \n";
-};
+}
 int main(){
     Dog_cry();
     Cat_cry();
