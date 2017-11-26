@@ -6,3 +6,6 @@ all: hello-cpp-world hello-c-world
 %: %.c
 	gcc $< -o $@
 
+clean:
+	rm *.a
+	rm *.o
