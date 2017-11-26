@@ -1,5 +1,6 @@
 #include <iostream>
-int swap (int &a, int&b){
+
+int swap (int& a, int& b){
     int temp = a;
     a = b;
     b = temp;
@@ -17,5 +18,5 @@ int main(){
     int &b = j;
     
     std::cout<<"i= " << i << "\nj= " << j<<std::endl;
-    
+    printf("i=%d, j= %d",i,j);
 }
