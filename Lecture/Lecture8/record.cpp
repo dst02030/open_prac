@@ -15,7 +15,7 @@ class record{
     record();
     record(char*, int);
     record(char*, int, int);
-    void print(void);
+    void print();
 };
 
 record::record(char* str, int score){
