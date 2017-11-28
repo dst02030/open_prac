@@ -46,3 +46,23 @@ void Human::What_is_your_name(){
 void Human::How_Old_are_you(){
     cout<<GetName()<<":"<<"I am"<<GetAge()<<"."<<endl;
 }
+
+Human::Human(){
+    age = -1;
+    height = 0.0;
+    name = "";
+}
+
+Human::Human(int Age, double Height, char* Name){
+    aget = Age;
+    height = Height;
+    name = Name;
+}
+
+void human::Aging(){
+    age++;
+}
+
+void human::Growing(){
+    height+=0.5;
+}
