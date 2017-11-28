@@ -8,10 +8,11 @@ class point{
         x=_x;
         y=_y;
     }
+    /*
     point(const point &pt){
         x=pt.x;
         y=pt.y;
-    }
+    }*/
     
     void set(int _x, int _y){
         x=_x;
