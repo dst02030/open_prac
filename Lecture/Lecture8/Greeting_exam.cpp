@@ -54,15 +54,28 @@ Human::Human(){
 }
 
 Human::Human(int Age, double Height, char* Name){
-    aget = Age;
+    age = Age;
     height = Height;
     name = Name;
 }
 
-void human::Aging(){
+void Human::Aging(){
     age++;
 }
 
-void human::Growing(){
+void Human::Growing(){
     height+=0.5;
+}
+
+int main(){
+    Human gjhong(20,180,"Hong, Gil Dong");
+    Human yhkim(20,160,"Kim, Young Hee");
+    
+    cout<<"Greeting"<<endl;
+    gjhong.AskName(yhkim);
+    yhkim.AskName(gjhong);
+    gjhong.AskAge(yhkim);
+    yhkim.AskAge(gjhong);
+    
+    
 }
