@@ -19,5 +19,5 @@ class Human{
     private:
     void Aging();
     void Growing();
-}
+};
 
