@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 class record{
@@ -34,4 +35,18 @@ void record::modifyTel(char *_tel){
     delete tel;
     tel = new char[strlen(_tel)+1];
     strcpy(tel,_tel);
+}
+
+void record::print(void){
+    cout<<name;
+    cout<<": "<<tel<<endl;
+}
+
+int main(){
+    record myRecord("KIM", "6565");
+    record hisRecord(myRecord);
+    myRecord.modifyTel("5454");
+    myRecord.print();
+    hisRecord.print();
+    return 0;
 }
