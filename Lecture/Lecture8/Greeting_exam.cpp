@@ -40,11 +40,11 @@ void Human::AskAge(Human other_person){
 }
 
 void Human::What_is_your_name(){
-    cout<<GetName()<<":"<<"Hello, I am" << GetName() << endl;
+    cout<<GetName()<<":"<<"Hello, I am " << GetName() << endl;
 }
 
 void Human::How_Old_are_you(){
-    cout<<GetName()<<":"<<"I am"<<GetAge()<<"."<<endl;
+    cout<<GetName()<<":"<<"I am "<<GetAge()<<"."<<endl;
 }
 
 Human::Human(){
