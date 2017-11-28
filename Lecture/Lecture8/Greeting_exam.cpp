@@ -29,7 +29,7 @@ char* Human::GetName(){
     return name;
 }
 
-void Human::AskName(Human_other_person){
+void Human::AskName(Human other_person){
     cout<<GetName() << ":"<<"Hi, What is your name?"<<endl;
     other_person.What_is_your_name();
 }
