@@ -1,0 +1,5 @@
+글로벌: 모든 함수 (class의 member 함수)
+
+static: class의 멤버들 + class들에 공유되는 공간
+
+local: class의 멤버들
