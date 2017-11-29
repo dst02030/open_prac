@@ -4,7 +4,7 @@ using namespace std;
 class student{
     public:
     int id;
-    student(int i = 0);
+    student(int i = count);
     static void printCount();
     private:
     static int count;
