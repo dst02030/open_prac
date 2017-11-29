@@ -2,11 +2,12 @@
 using namespace::std;
 #include <string.h>
 
-int count= 1;
+
 
 class student{
     char name[20];
     int age;
+    static int count;
     public:
     student(char* _name, int _age){
         strcpy(name, _name);
@@ -14,6 +15,8 @@ class student{
         cout<< count++ << "th student"<<endl;
     }
 };
+
+int student::count = 1;
 
 int main(){
     student s1("KIM",20);
