@@ -2,6 +2,22 @@
 
 class ChangePocketClass{
     public:
+    //rest of member functions as shown before
+    
+    //Copy constructor-called when a copy of an object is needed
+    ChangePocketClass(const ChangePocketClass &copy){
+        quarters = copy.quarters;
+        dimes = copy.dimes;
+    }
+    
+    //Assignment operator-called when one object is assigned to another
+    void operator = (const ChangePocketClass rhs)
+    {
+        quarters = rhs.quarters;
+        dimes = rhs.dimes;
+    }
+    
+    
     ChangePocketClass():quarters(0),dimes(0) // quarters와 dimes 할당과 동시에 초기화 하기 위해서
     {
         
