@@ -1,3 +1,5 @@
+// 앞의 ostream 설정 한 거 떄문에 가능한거.
+
 ofstream outFile;
 outFile.open("textOut.txt");
 iObj1 = 81;
