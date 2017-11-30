@@ -2,7 +2,7 @@
 
 class ChangePocketClass{
     public:
-    ChangePocketClass():quarters(0),dimes(0)
+    ChangePocketClass():quarters(0),dimes(0) // quarters와 dimes 할당과 동시에 초기화 하기 위해서
     {
         
     }
