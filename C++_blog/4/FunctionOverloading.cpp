@@ -12,6 +12,11 @@ void func (int a, int b)
     cout << "void func(int a, int b)이 호출됨!" << endl;
 }
 
+int add(int a, int b)
+{
+    return 0;
+}
+
 int main()
 {
     func(4);
@@ -19,3 +24,4 @@ int main()
     
     return 0;
 }
+
