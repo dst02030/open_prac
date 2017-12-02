@@ -9,12 +9,12 @@ namespace A {
     }
 }
 
-using namespace A;
+using namespace A::Add;
 
 int main()
 {
     Add();
-    Minus();
+    A::Minus();
     return 0;
 }
 
