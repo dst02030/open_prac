@@ -53,3 +53,5 @@ pd = (derived*) pb; // downcasting
 */
 
 51,52는 가능은 하지만 side effects가 발생할 수 있어서 조심해야하.
+
+<21쪽> virtual을 통해서 base에서 derived의 함수를 호출할 수 있게함.
