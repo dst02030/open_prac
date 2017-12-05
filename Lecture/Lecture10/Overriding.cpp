@@ -22,8 +22,13 @@ class Child : public Parent {
 };
 
 int main(){
-    Child child;
-    child.print();
-    child.Parent::print(3);  
+    Child *child = new Child();
+    child -> print();
+    
+    Parent *father = child;
+    father -> print();
+    
+    delete child;
+    
     return 0;
 }
