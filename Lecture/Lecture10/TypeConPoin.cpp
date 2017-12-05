@@ -22,8 +22,8 @@ class Undergraduate : public Student {
 
 int main(){
     Person *p1 = new Person;
-    Student *p2 = new Undergraduate; // (O)
-    Undergraduate *p3 = new Undergraduate; // (O)
+    Person *p2 = new Student; // (O)
+    Person *p3 = new Undergraduate; // (O)
     
     p1 -> Sleep();
     p2 -> Sleep();
