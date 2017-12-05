@@ -9,7 +9,7 @@ class Parent{
         familyName = new char[strlen(_familyName)+1];
         strcpy(familyName, _familyName);
     }
-    ~Parent(){
+    virtual ~Parent(){
         cout<<"~Parent()"<<endl;
         delete familyName;
     }
@@ -27,7 +27,7 @@ class Child : public Parent{
         name = new char[strlen(_name)+1];
         strcpy(name, _name);
     }
-    ~Child()
+    virtual ~Child()
     {
         cout<<"~Child()" << endl;
         delete name;
