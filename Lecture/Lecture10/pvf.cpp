@@ -12,3 +12,15 @@ class Child : public Parent{
         cout<< "I'm your son." << endl;
     }
 };
+
+int main(){
+    /*
+    Parent parent;
+    parent.print();
+    */
+    
+    Child child;
+    child.print();
+    //child.Parent::print();
+    return 0;
+}
