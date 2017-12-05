@@ -22,11 +22,11 @@ class Undergraduate : public Student {
 
 int main(){
     Person *p1 = new Person;
-    //Student *p2 = new Person; // (X)
-    //Undergraduate *p3 = new Person; // (X)
+    Student *p2 = new Undergraduate; // (O)
+    Undergraduate *p3 = new Undergraduate; // (O)
     
     p1 -> Sleep();
-    //p2 -> Sleep();
-    //p3 -> sleep();
+    p2 -> Sleep();
+    p3 -> sleep();
     return 0;
 }
