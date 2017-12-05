@@ -6,11 +6,17 @@ class Parent{
     void print(){
         cout<<"I'm your father." << endl;
     }
+    
+    void print(int i){
+        for (int j = 0; j < i; j++){
+            cout<<"I'm your father" << endl;
+        }
+    }
 };
 
 class Child : public Parent {
     public:
-    void print(int i = 1){
+    void print({
         cout << "I'm your son." << endl;
     }
 };
@@ -18,6 +24,6 @@ class Child : public Parent {
 int main(){
     Child child;
     child.print();
-    child.print(3);
+    //child.print(3);  <- Error!
     return 0;
 }
