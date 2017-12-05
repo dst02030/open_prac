@@ -1,9 +1,7 @@
 #include <iostream>
 class Agent{
     public: 
-    Agent(){
-        return 0;
-    }
+    Agent();
     
     virtual void Move ( ) = 0;
 };
