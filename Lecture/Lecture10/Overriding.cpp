@@ -24,6 +24,6 @@ class Child : public Parent {
 int main(){
     Child child;
     child.print();
-    //child.print(3);  <- Error!
+    child.Parent::print(3);  
     return 0;
 }
