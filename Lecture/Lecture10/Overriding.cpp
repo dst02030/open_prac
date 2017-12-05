@@ -3,7 +3,7 @@ using namespace std;
 
 class Parent{
     public:
-    void print(){
+    virtual void print(){
         cout<<"I'm your father." << endl;
     }
     
@@ -16,7 +16,7 @@ class Parent{
 
 class Child : public Parent {
     public:
-    void print({
+    void print(){
         cout << "I'm your son." << endl;
     }
 };
