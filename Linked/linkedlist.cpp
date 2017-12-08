@@ -1,5 +1,5 @@
 #include "linkedlist.h"
-
+#include <stdlib.h>
 StringNode::StringNode()
 {
     
