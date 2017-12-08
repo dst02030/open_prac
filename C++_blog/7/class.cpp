@@ -47,4 +47,6 @@ int main(){
         stu.Sleep();
 
     }
+    
+    return 0;
 }
