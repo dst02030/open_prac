@@ -12,7 +12,8 @@ class A{
 class B : pubic A {
     public:
     void over(){
-        cout << "B 클래스의 over 함수 호출!" << endl;
+        A::over();
+        cout <<"B 클래스의 over 함수 호출!" << endl;
     }
 };
 
