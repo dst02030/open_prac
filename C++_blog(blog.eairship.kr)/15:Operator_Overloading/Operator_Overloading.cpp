@@ -14,6 +14,10 @@ class NUMBOX{
     void ShowNumber(){
         cout << "num1: " << num1 << ", num2: " << num2 << endl;
     }
+    NUMBOX operator+(NUMBOX &ref)
+    {
+        return NUMBOX(num1+ref.num1, num2+ref.num2);
+    }
 };
 
 int main(){
@@ -23,4 +27,5 @@ int main(){
     
     nb1.ShowNumber();
     nb2.ShowNumber();
+    result.ShowNumber();
 }
