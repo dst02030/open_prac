@@ -47,3 +47,6 @@ int main(){
     nb2.ShowNumber();
     nb1.ShowNumber();
 }
+
+// ++nb = nb.operator++(); // 전위 증가 연산
+// nb++ = nb.operator++(int); // 후위 증가 연산
