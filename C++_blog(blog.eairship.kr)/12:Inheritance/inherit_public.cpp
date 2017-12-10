@@ -27,3 +27,9 @@ int main()
     cout << base.num3 << endl; // error!
     return 0;
 }
+
+/*
+private, public, protected의 접근 범위를 한줄로 정리하자면 아래와 같습니다.
+
+private < protected < public
+*/
